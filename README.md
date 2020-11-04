@@ -1,6 +1,11 @@
 # 學習EPub
 > 用來研究更多數位出版的技術，目標是挖掘新的生產模式及產品。預期會從最基本的HTML、CSS、編輯工具、EPub結構、EPub測試工具一直到EPub打包到不同平台做數位出版。個人希望盡可能的去探討完整的電子書生產流程，思考數位出版接下來該如何面對的各式各樣的商業場景及新的銷售模式。
 
+<center><figure>
+<br/><br/><img src="./img/workflow.drawio.png"><br/><br/>
+<figcaption><B>Fig.1 EPub電子書生產流程</B></figcaption>
+</figure></center>
+
 ## 一、外部學習資源
 
 ### 1. 平台規範

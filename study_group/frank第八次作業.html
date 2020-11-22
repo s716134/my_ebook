@@ -7,6 +7,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>【第4次聚會】使用Sigil製作文字為主的電子書</title>
+  <!-- TODO: CSS屬於下一次的內容，先註解掉部分功能 -->
   <style>
     table,
     th,
@@ -14,11 +15,33 @@
       border: 1px solid black;
       border-collapse: collapse;
     }
+
+    /* h1 {
+      color: blue;
+    }
+
+    p {
+      padding: 1rem;
+      background-color: #bedbe8;
+      border: 1px solid black;
+      border-radius: 1em;
+    }
+
+    b {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+
+    body {
+      writing-mode: vertical-rl;
+      -webkit-writing-mode: vertical-rl;
+      -moz-writing-mode: vertical-rl;
+      text-orientation: mixed;
+    }  */
   </style>
 </head>
 
 <body>
-
   <h1>【第4次聚會】使用Sigil製作文字為主的電子書</h1>
   <em>
     大家可以在這裡多多交流意見，學習起來比較不會那麼沒有方向。
@@ -28,17 +51,15 @@
     另外，我偷偷開啟Trello自訂欄位的功能，可以之後在卡片的編輯上會比較有彈性。<br><br>
   </em>
   <b>本週:2020/08/30(sun) 下次: 2020/09/13(sun)</b>
-
   <hr>
   <ol>
+    <!-- 第一段 -->
     <h2>
       <li>
         作業討論
       </li>
     </h2>
-
     <table class="center">
-
       <th>
         順序
       <td>發言人</td>
@@ -125,17 +146,14 @@
         </td>
       </tr>
     </table>
-
-
+    <!-- 第二段 -->
     <h2>
       <li>
         未來方向
       </li>
     </h2>
-
-    現行以學習indesign為主要學習方向
-
-
+    <blockquote>現行以學習indesign為主要學習方向</blockquote>
+    <!-- 第三段 -->
     <h2>
       <li>
         本週作業
@@ -145,19 +163,25 @@
       <h3>
         <li>純文字排版</li>
       </h3>
-
-      - 選擇編排內容
-      -
-      【獨立書店生與死】折扣戰才是書店大危機，產業健全政策何時落地？[~連結~](https://www.twreporter.org/a/saturday-features-independent-bookstore-price-discount-influence)
+      <blockquote>
+        【獨立書店生與死】折扣戰才是書店大危機，產業健全政策何時落地？<sub><a
+            href="https://www.twreporter.org/a/saturday-features-independent-bookstore-price-discount-influence">連結</a></sub><br>
+        <iframe src="https://www.twreporter.org/a/saturday-features-independent-bookstore-price-discount-influence"
+          height="30%" width="50%" title="【獨立書店生與死】折扣戰才是書店大危機，產業健全政策何時落地？"></iframe>
+      </blockquote>
       <h3>
         <li>文字內容排版</li>
       </h3>
-      - Indesign(主要)
-      - Sigil(也可)
-      - 可以自行嘗試不一樣電子書的創作方式
-      - 輸出格式
-      - 以自己想Demo的設備為主(EPub、PDF、AZW3...)
+      <ul>
+        <li>Indesign(主要)</li>
+        <li>Sigil(也可)</li>
+        <li>可以自行嘗試不一樣電子書的創作方式</li>
+        <li>輸出格式</li>
+        <li>以自己想Demo的設備為主(EPub、PDF、AZW3...)</li>
+      </ul>
+
     </ul>
+    <!-- 第四段 -->
     <h2>
       <li>
         資源分享
@@ -167,45 +191,43 @@
       <h3>
         <li>教學</li>
       </h3>
-
-      - InDesign tutorials [~by_書琪~]((https://helpx.adobe.com/tw/indesign/tutorials.html))
-      - 使用sigil制作epub电子书的一些技巧[~by_怡慧~](http://www.oku9.com/?p=1615)
-      - 電子書製作訣竅 | 掌握InDesign
-      十大技巧，輕鬆擁有自製電子書[~by_怡慧~](https://www.shutterstock.com/zh-Hant/blog/tips-creating-ebooks-epubs-indesign)
-      - Sigil－自製電子書的開源利器[~by_怡慧~](https://ymhuang0808.gitbooks.io/ossfcollection/content/APP/Apps-201206-Sigil.html)
-      - 用InDesign製作可重排式版面的小說ePub
-      3電子書訣竅－入門基礎篇[~by_小小五~](https://kusocloud.net/2017/03/09/用indesign製作可重排式版面的小說epub-3電子書訣竅－入門/)
-      - Adobe InDesign CC: Your Complete Guide to
-      InDesign[~by_小小五~](https://www.udemy.com/course/adobe-indesign-course/)
-      - InDesign 教學[~by_Stanley~](http://www.cg.com.tw/InDesign/)
+      <ul>
+        <li>InDesign tutorials<sub><a href="https://helpx.adobe.com/tw/indesign/tutorials.html">by 書琪</a></sub></li>
+        <li>使用sigil制作epub电子书的一些技巧<sub><a href="http://www.oku9.com/?p=1615">by 怡慧</a></sub></li>
+        <li>子書製作訣竅 | 掌握InDesign十大技巧，輕鬆擁有自製電子書<sub><a
+              href="https://www.shutterstock.com/zh-Hant/blog/tips-creating-ebooks-epubs-indesign">by 怡慧</a></sub></li>
+        <li>Sigil－自製電子書的開源利器<sub><a
+              href="https://ymhuang0808.gitbooks.io/ossfcollection/content/APP/Apps-201206-Sigil.html">by 怡慧</a></sub>
+        </li>
+        <li>用InDesign製作可重排式版面的小說ePub3電子書訣竅－入門基礎篇<sub><a
+              href="https://kusocloud.net/2017/03/09/用indesign製作可重排式版面的小說epub-3電子書訣竅－入門/">by 小小五</a></sub></li>
+        <li>Adobe InDesign CC: Your Complete Guide to InDesign<sub><a
+              href="https://www.udemy.com/course/adobe-indesign-course/">by 小小五</a></sub></li>
+        <li> InDesign 教學<sub><a href="http://www.cg.com.tw/InDesign/">by Stanley</a></sub></li>
+      </ul>
 
       <h3>
         <li>書籍</li>
       </h3>
-
-      - 最美的日本文化名詞學習圖鑑[~by_書琪~](https://readmoo.com/book/210149433000101)
-      - 最美的日本文化名詞學習圖鑑【和服・傳統藝能篇】(中英日三語版)[~by_小小五~](https://www.kobo.com/tw/zh/ebook/VF9ihrBQ2z-jkXezV3m5zw)
-      - 設計排版 最基礎教科書：無論是誰，無論什麼領域，只要熟悉原則，就能做設計！[~by_Jennifer~](https://www.books.com.tw/products/0010867516)
-
+      <ul>
+        <li>最美的日本文化名詞學習圖鑑<sub><a href="https://readmoo.com/book/210149433000101">by 書琪</a></sub></li>
+        <li>最美的日本文化名詞學習圖鑑【和服・傳統藝能篇】(中英日三語版)<sub><a href="https://www.kobo.com/tw/zh/ebook/VF9ihrBQ2z-jkXezV3m5zw">by
+              小小五</a></sub></li>
+        <li>設計排版 最基礎教科書：無論是誰，無論什麼領域，只要熟悉原則，就能做設計！<sub><a href="https://www.books.com.tw/products/0010867516">by
+              Jennifer</a></sub>
+      </ul>
+      </li>
       <h3>
         <li>血汗</li>
       </h3>
-      - 電子書專員(主任)徵才[~by_怡慧~](https://www.104.com.tw/job/5tvvd?jobsource=jolist_c_relevance)
+      電子書專員(主任)徵才<sub><a href="https://www.104.com.tw/job/5tvvd?jobsource=jolist_c_relevance">by by_怡慧</a></sub>
     </ol>
   </ol>
   <hr>
-  <ul>
-    <li>chia-ying Lin</li>
-    想認識文字排版的簡單概念可以讀這本書
-    <q>字的設計有道理！Thinking with Type</q>
-    https://www.books.com.tw/products/0010396162
-
-    <li>Chun Jing Lai</li>
-    有底線的代表是超連結，可以點下去前往該主題。
-  </ul>
-
-
-
+  <!-- 第五段 -->
+  <h2>留言區</h2>
+  <p>[1] 想認識文字排版的簡單概念可以讀這本書<q>字的設計有道理！Thinking with Type</q> --- Chia Ying Lin</p>
+  <p>[2] 有底線的代表是超連結，可以點下去前往該主題 --- Chun Jing Lai</p>
 </body>
 
 </html>
